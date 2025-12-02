@@ -1,0 +1,34 @@
+{
+	"name": "quovoy-lead-management-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node dist/server.js",
+		"dev": "env-cmd -f .env.development nodemon",
+		"build": "tsc && resolve-tspaths",
+		"pretty": "prettier --write ./src/**/* ",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"prisma:dev": "env-cmd -f .env.development prisma migrate dev --name development",
+		"prisma:deploy": "env-cmd -f .env.production prisma migrate deploy"
+	},
+	"engines": {
+		"node": "22.7.0"
+	},
+	"devDependencies": {
+		"env-cmd": "^11.0.0",
+		"eslint": "^9.39.1",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-import-resolver-typescript": "^4.4.4",
+		"eslint-plugin-import": "^2.32.0",
+		"eslint-plugin-prettier": "^5.5.4",
+		"globals": "^16.5.0",
+		"nodemon": "^3.1.11",
+		"prettier": "^3.7.3",
+		"resolve-tspaths": "^0.8.23",
+		"ts-node": "^10.9.2",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^8.48.1"
+	}
+}
