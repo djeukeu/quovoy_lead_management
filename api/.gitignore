@@ -56,3 +56,5 @@ experimental/**/*.db
 coverage
 
 /src/generated/prisma
+
+/src/generated/prisma
