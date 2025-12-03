@@ -10,7 +10,8 @@
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
 		"prisma:dev": "prisma migrate dev --name development",
-		"prisma:deploy": "prisma migrate deploy"
+		"prisma:deploy": "prisma migrate deploy",
+		"postinstall": "tsc && resolve-tspaths"
 	},
 	"devDependencies": {
 		"@types/convict": "^6.1.6",
