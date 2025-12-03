@@ -1,6 +1,6 @@
 ## 📋 Prerequisites
 Make sure you have the following installed:
-- **Node.js**: v18 or later (Preferably as indicated in the `.nvmrc `file)
+- **Node.js**: v22 or later (Preferably as indicated in the `.nvmrc `file)
 - **Backend API running**
 - **Git** (for cloning the repository)
 
